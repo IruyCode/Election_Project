@@ -16,7 +16,7 @@
 <body>
  <!-- vai juntar toda a funcionalidade do Site -->
  <?php 
-    include_once './FrontEnd/navBar/navbar.php';
+    include_once './FontEnd/navBar/navbar.php';
  ?>
 </body>
 </html>

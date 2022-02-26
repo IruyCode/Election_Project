@@ -8,7 +8,7 @@
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Login</a>
-          <a class="nav-link active" aria-current="page" href="/FrontEnd//Register//Register.php">Register</a>
+          <a class="nav-link active" aria-current="page" href="/FontEnd//Register//Register.php">Register</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Votar</a>

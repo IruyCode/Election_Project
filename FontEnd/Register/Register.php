@@ -23,26 +23,33 @@
 
     <div class="container"> 
         <!-- Vamos enviar e dps receber com erros ou n -->
-    <form action="./ReceiveRegister.php" method="GET">
+    <form action="./ReceiveRegister.php" method="POST">
        
         <div class="mb-3">
             <label class="form-label">Insert Your Name:</label>
-            <input type="text" class="form-control" placeholder="Digite seu Nome..." name=""> 
+            <!-- No atributo NAME = o php interpreta como array XD -->
+            <input type="text" class="form-control" 
+            placeholder="Digite seu Nome..." name="FormCamps[name]"> 
         </div>
       
         <div class="mb-3">
             <label class="form-label">Email address</label>
-            <input type="email" class="form-control" name="<?php  ?>" >
+            <input type="email" class="form-control" name="FormCamps[email]" >
         </div>
 
         <div class="mb-3">
             <label class="form-label">Password</label>
-            <input type="password" class="form-control" name="pass">
+            <input type="password" class="form-control" name="FormCamps[pass]">
+        </div>
+        
+        <div class="mb-3">
+            <label class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" name="FormCamps[ComFpass]">
         </div>
         
         <div class="md-3">
             <label class="form-label">Your Age:</label>
-            <input type="number" class="form-control" name="age">
+            <input type="number" class="form-control" name="FormCamps[age]">
         </div>
 
         <div class="mb-3 form-check">
